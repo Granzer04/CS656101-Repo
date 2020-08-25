@@ -3,7 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) { // void means function won't return a value
-        int age = 30; // saving a variable and only store whole numbers
-        System.out.println(age); //this will print the value of age
+        //int myAge = 30;// saving a variable and only store whole numbers
+        //int herAge = myAge; // takes the value from the top
+        //System.out.println(herAge); //this will print the value of myAge
     }
 }

@@ -1,14 +1,24 @@
 package com.company;
 
 import java.awt.*;
+import java.sql.SQLOutput;
+import java.util.Arrays;
 //import java.util.Date;
 
 public class Main {
 
     public static void main(String[] args) {
         //String message = "AAAA \"BBBB\"";//Escape chars..... my bitch ass one liners at work xD
-        String message = "c:\\Windows\\.."; // escape with another \ and add a \n to escape with a new line
-        System.out.println(message);
-
+        //String message = "c:\\Windows\\.."; // escape with another \ and add a \n to escape with a new line
+        // System.out.println(message);
+        //ARAYYS
+        //int[] numbers = new int[5];// refrence so would need new and also 5 is the size of the array int is the type of stuff in the array
+        //numbers[0] = 1;//set each index with a number and we know that the array is max at size 5
+        //numbers[1] = 2;
+        //System.out.println(numbers);// this will print addr in memory of the array
+        int[] numbers = { 2, 3, 5, 1, 4 };
+        //System.out.println(numbers.length);//will show size of array
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));//Arrays is a class that will help printing the stuff in the INT Array... make sure you initialize correct Array toString
     }
 }

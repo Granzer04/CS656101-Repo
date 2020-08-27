@@ -32,9 +32,17 @@ public class Main {
         x = 2;  // x and y are completely independent even if we change value of x
         System.out.println(y); */
 
-        Point point1 = new Point(1,1); // refrence type will store memory location of the addr and not the obj value
-        Point point2 = point1; // point2 calls the memory location of point1
-        //point1.x = 2;
+       // Point point1 = new Point(1,1); // refrence type will store memory location of the addr and not the obj value
+       // Point point2 = point1; // point2 calls the memory location of point1
+        // point1.x = 2;
         //System.out.println(point2);
+
+        String message = ("AAAAAAAAA" + "!@#!@#!"); // Strings are refrence types
+        //System.out.println(message.length());//methods which also has startsWith() and length to check size for like pw or something
+        //System.out.println(message.indexOf("!")); // shows where the char is in a str
+        //System.out.println(message.replace("!", "*"));// pretty much replacment!!! and not modify original
+        
+
+
     }
 }

@@ -22,8 +22,19 @@ public class Main {
         //System.out.println(Arrays.toString(numbers));//Arrays is a class that will help printing the stuff in the INT Array... make sure you initialize correct Array toString
         //MultiDimension ARRAY!!
         //int[][] numbers = new int[2][3];// 2 rows and 3 columns
-        int [][] numbers = { { 1, 2, 3}, { 4, 5, 6} };// Same thing with Row and Column setup
-        numbers[0][0] = 1;//set 1st row 1st column as 1
-        System.out.println(Arrays.deepToString(numbers));//deepToString is for multi D Array
+        //int [][] numbers = { { 1, 2, 3}, { 4, 5, 6} };// Same thing with Row and Column setup Each row is an array
+        //numbers[0][0] = 1;//set 1st row 1st column as 1
+        //System.out.println(Arrays.deepToString(numbers));//deepToString is for multi D Array
+
+        // CONSTANT VARIABLE VALUE and MATH!!!
+        //final float  PI = 3.14F;// IT WILL NEVER CHANGE VALUE and using capital letters
+        //double result = (double)10 / (double)3;//must set numbers as DOUBLE so we can get decimal in value
+        int x = 1;
+        //int y = x++;//++x first X will be 2 then Y will be 2
+        //x++;// OR like ++x
+        //x = x + 2;
+        x += 2;//adds 2 same as before
+        System.out.println(x);
+
     }
 }
